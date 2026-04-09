@@ -22,7 +22,7 @@ This project is an end-to-end Machine Learning web application designed to predi
 
 ## Project Structure
 ```text
-House_Price_Project/
+House_Price_Prediction/
 │
 ├── data/
 │   ├── train.csv                # Raw Ames Housing dataset

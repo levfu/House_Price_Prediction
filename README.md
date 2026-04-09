@@ -39,13 +39,13 @@ House_Price_Prediction/
 ```
 
 ## How to Run Locally
-1. Clone the repository:
+* **Clone the repository:**
 ```text
 git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/House_Price_Prediction.git
 cd House_Price_Prediction
 ```
 
-2. Create a virtual environment (Optional but highly recommended):
+* **Create a virtual environment (Optional but highly recommended):**
 ```text
 python -m venv venv
 # On Windows:
@@ -54,12 +54,12 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3. Install the required dependencies:
+* **Install the required dependencies:**
 ```text
 pip install -r requirements.txt
 ```
 
-4. Launch the web application:
+* **Launch the web application:**
 ```text
 streamlit run app.py
 ```

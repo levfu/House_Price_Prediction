@@ -4,23 +4,23 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
 
-## 📌 Overview
+## Overview
 This project is an end-to-end Machine Learning web application designed to predict the market value of residential properties in Ames, Iowa. By leveraging advanced regression techniques and an automated data preprocessing pipeline, the AI model provides instant and accurate price estimates based on key property features.
 
-## 🚀 Key Features
+## Key Features
 * **Automated Data Pipeline:** Built a robust `scikit-learn` Pipeline utilizing `SimpleImputer`, `StandardScaler`, and `OneHotEncoder` to automatically handle missing values and categorical data while strictly preventing **Data Leakage**.
 * **Outlier Handling:** Conducted Exploratory Data Analysis (EDA) to identify and remove critical outliers, significantly improving the model's boundary decision.
 * **Hyperparameter Tuning & Evaluation:** Trained and compared multiple algorithms including Linear Regression, Ridge (L2), Lasso (L1), and Random Forest (tuned via `GridSearchCV`).
 * **Feature Selection via Lasso:** The champion model, **Lasso Regression**, achieved an **$R^2$ Score of 90.40%** by inherently performing feature selection (shrinking irrelevant feature weights to zero) in a highly dimensional dataset.
 * **Interactive UI:** Deployed an intuitive and responsive web interface using **Streamlit**.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Processing & EDA:** Pandas, NumPy, Matplotlib, Seaborn
 * **Machine Learning:** Scikit-Learn, Joblib
 * **Web Framework & Deployment:** Streamlit, Streamlit Community Cloud
 
-## 📁 Project Structure
+## Project Structure
 ```text
 House_Price_Project/
 │

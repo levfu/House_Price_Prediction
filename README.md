@@ -29,20 +29,23 @@ The dataset used in this project is the famous Ames Housing dataset. It contains
 ```text
 House_Price_Prediction/
 │
+├── assets/                           # UI screenshots, icons, and static images
+│   
+│
 ├── data/
-│   ├── train.csv                # Raw Ames Housing dataset
-│   └── data_description.txt     # Data dictionary
+│   ├── train.csv                     # Raw Ames Housing dataset
+│   └── data_description.txt          # Data dictionary
 │
-├── model/
-│   └── house_price_model.pkl    # Exported champion model (Lasso)
+├── model/                            # Folder containing exported models
+│   └── house_price_model.pkl         # Exported champion model (Lasso)
 │
-├── notebooks/
-│   ├── 01_EDA.ipynb             # Exploratory Data Analysis & Visualizations
-│   └── 02_Model_Training.ipynb  # Pipeline building, Model training, & Tuning
+├── notebooks/                        # Jupyter notebooks for analysis & modeling
+│   ├── 01_EDA.ipynb                  # Exploratory Data Analysis & Visualizations
+│   └── 02_Model_Training.ipynb       # Pipeline building, Model training, & Tuning
 │
-├── app.py                       # Streamlit web application script
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
+├── app.py                            # Streamlit web application script
+├── requirements.txt                  # Project dependencies
+└── README.md                         # Project documentation
 ```
 
 ## How to Run Locally

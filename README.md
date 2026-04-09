@@ -36,3 +36,10 @@ House_Price_Prediction/
 ├── house_price_model.pkl        # Exported champion model (Lasso)
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
+```
+
+## How to Run Locally
+1. **Clone the repository:**
+```bash
+   git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/House_Price_Prediction.git
+   cd House_Price_Prediction

@@ -9,6 +9,9 @@ This project is an end-to-end Machine Learning web application designed to predi
 
 The dataset used in this project is the famous Ames Housing dataset. It contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
+## UI Sneak Peek
+![App Screenshot](assets/app_screenshot.png)
+
 ## Key Features
 * **Automated Data Pipeline:** Built a robust `scikit-learn` Pipeline utilizing `SimpleImputer`, `StandardScaler`, and `OneHotEncoder` to automatically handle missing values and categorical data while strictly preventing **Data Leakage**.
 * **Outlier Handling:** Conducted Exploratory Data Analysis (EDA) to identify and remove critical outliers, significantly improving the model's boundary decision.

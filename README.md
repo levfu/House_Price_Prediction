@@ -7,7 +7,7 @@
 ## Overview / Dataset Context
 This project is an end-to-end Machine Learning web application designed to predict the market value of residential properties in Ames, Iowa. By leveraging advanced regression techniques and an automated data preprocessing pipeline, the AI model provides instant and accurate price estimates based on key property features. 
 
-The dataset used in this project is the famous Ames Housing dataset. It contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+The dataset used in this project is the famous **Ames Housing dataset**. It contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 ## UI Sneak Peek
 ![App Screenshot](assets/app_screenshot.png)

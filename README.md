@@ -47,9 +47,9 @@ House_Price_Prediction/
 
 ## How to Run Locally
 * **Clone the repository:**
-```text
-   git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/House_Price_Prediction.git
-   cd House_Price_Prediction
+```bash
+git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/House_Price_Prediction.git
+cd House_Price_Prediction
 ```
 
 * **Create a virtual environment (Optional but highly recommended):**

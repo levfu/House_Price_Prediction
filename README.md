@@ -80,5 +80,3 @@ streamlit run app.py
 
 ## Conclusion
 This project successfully demonstrates the complete lifecycle of a Machine Learning product—from raw data ingestion, exploratory analysis, and outlier removal, to automated pipeline construction and deployment. By prioritizing clean code and an interactive user experience, this tool bridges the gap between complex data science algorithms and accessible real estate insights.
-
->>>>>>> d35fac49ed08242e9b4f07ff7fc6f76bfd69bb11

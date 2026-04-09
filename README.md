@@ -64,3 +64,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Future Improvements
+* **Advanced Gradient Boosting:** Integrating XGBoost or LightGBM to see if tree-based ensemble methods can outscore the linear models after extensive hyperparameter tuning.
+* **Geospatial Visualization:** Adding a map component to visually plot housing prices across different Ames neighborhoods.
+* **Expanded User Inputs:** Allowing users to input more granular details via an "Advanced Settings" toggle in the UI.
+

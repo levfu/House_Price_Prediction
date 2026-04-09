@@ -1,4 +1,4 @@
-# 🏡 Real Estate AI: House Price Predictor
+# Real Estate AI: House Price Predictor
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](THAY_LINK_WEB_STREAMLIT_CỦA_BẠN_VÀO_ĐÂY)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)

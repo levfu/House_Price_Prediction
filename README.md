@@ -4,8 +4,8 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
 
-## Overview
-This project is an end-to-end Machine Learning web application designed to predict the market value of residential properties in Ames, Iowa. By leveraging advanced regression techniques and an automated data preprocessing pipeline, the AI model provides instant and accurate price estimates based on key property features.
+## Overview / Dataset Context
+This project is an end-to-end Machine Learning web application designed to predict the market value of residential properties in Ames, Iowa. By leveraging advanced regression techniques and an automated data preprocessing pipeline, the AI model provides instant and accurate price estimates based on key property features. The dataset used in this project is the famous Ames Housing dataset. It contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 ## Key Features
 * **Automated Data Pipeline:** Built a robust `scikit-learn` Pipeline utilizing `SimpleImputer`, `StandardScaler`, and `OneHotEncoder` to automatically handle missing values and categorical data while strictly preventing **Data Leakage**.
@@ -39,6 +39,7 @@ House_Price_Prediction/
 ```
 
 ## How to Run Locally
+<<<<<<< HEAD
 1. Clone the repository:
 ```bash
    git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/House_Price_Prediction.git
@@ -46,3 +47,38 @@ House_Price_Prediction/
 ```
 
 2. 
+=======
+* **Clone the repository:**
+```text
+git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/House_Price_Prediction.git
+cd House_Price_Prediction
+```
+
+* **Create a virtual environment (Optional but highly recommended):**
+```text
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+* **Install the required dependencies:**
+```text
+pip install -r requirements.txt
+```
+
+* **Launch the web application:**
+```text
+streamlit run app.py
+```
+
+## Future Improvements
+* **Advanced Gradient Boosting:** Integrating XGBoost or LightGBM to see if tree-based ensemble methods can outscore the linear models after extensive hyperparameter tuning.
+* **Geospatial Visualization:** Adding a map component to visually plot housing prices across different Ames neighborhoods.
+* **Expanded User Inputs:** Allowing users to input more granular details via an "Advanced Settings" toggle in the UI.
+
+## Conclusion
+This project successfully demonstrates the complete lifecycle of a Machine Learning product—from raw data ingestion, exploratory analysis, and outlier removal, to automated pipeline construction and deployment. By prioritizing clean code and an interactive user experience, this tool bridges the gap between complex data science algorithms and accessible real estate insights.
+
+>>>>>>> d35fac49ed08242e9b4f07ff7fc6f76bfd69bb11

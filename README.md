@@ -28,12 +28,14 @@ House_Price_Prediction/
 │   ├── train.csv                # Raw Ames Housing dataset
 │   └── data_description.txt     # Data dictionary
 │
+├── model/
+│   └── house_price_model.pkl    # Exported champion model (Lasso)
+│
 ├── notebooks/
 │   ├── 01_EDA.ipynb             # Exploratory Data Analysis & Visualizations
 │   └── 02_Model_Training.ipynb  # Pipeline building, Model training, & Tuning
 │
 ├── app.py                       # Streamlit web application script
-├── house_price_model.pkl        # Exported champion model (Lasso)
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation
 ```

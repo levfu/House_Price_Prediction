@@ -8,7 +8,7 @@ st.set_page_config(page_title = "House Price Predictor", layout = "centered")
 # 2. Load Model and Baseline Data
 @st.cache_resource
 def load_model():
-    return joblib.load('house_price_model.pkl')
+    return joblib.load('model/house_price_model.pkl')
 
 @st.cache_data
 def load_baseline():

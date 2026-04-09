@@ -56,7 +56,7 @@ cd House_Price_Prediction
 ```
 
 * **Create a virtual environment (Optional but highly recommended):**
-```text
+```bash
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
@@ -65,12 +65,12 @@ source venv/bin/activate
 ```
 
 * **Install the required dependencies:**
-```text
+```bash
 pip install -r requirements.txt
 ```
 
 * **Launch the web application:**
-```text
+```bash
 streamlit run app.py
 ```
 

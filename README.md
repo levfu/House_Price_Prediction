@@ -29,7 +29,7 @@ The dataset used in this project is the famous **Ames Housing Dataset**. It cont
 ```text
 House_Price_Prediction/
 │
-├── assets/                           # UI screenshots, icons, and static images
+├── assets/                           # UI screenshots, icons, and static images, figures
 │   
 │
 ├── data/

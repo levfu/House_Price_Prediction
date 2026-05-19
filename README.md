@@ -1,6 +1,6 @@
 # Real Estate AI: House Price Predictor
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://housepriceprediction-grr8xzt7bjm7vhsmm58zxn.streamlit.app//)
+
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
 
